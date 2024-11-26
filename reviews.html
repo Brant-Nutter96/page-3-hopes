@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Dee's Donuts - Customer Reviews</title>
+    <link href="styles.css" rel="stylesheet" />
+    <!--
+        Provided 2 column fixed layout in CMIS 410 - for educational purposes only
+        Your Name: 
+        Today's Date: 
+    -->
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container */
+        #container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        #header {
+            background-color: #ff007f; /* Pink background */
+            padding: 20px;
+            text-align: center;
+        }
+
+        #header img {
+            width: 150px;
+            height: auto;
+        }
+
+        #header h1 {
+            color: white;
+            font-size: 2.5rem;
+        }
+
+        /* Navbar */
+        #navbar {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #navbar p {
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        #navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+
+        #navbar a:hover {
+            color: #ff007f; /* Pink hover effect */
+        }
+
+        /* Sidebar */
+        #sidebar {
+            width: 25%;
+            background-color: #444;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #sidebar h3 {
+            color: #ff007f;
+        }
+
+        /* Main column */
+        #main {
+            width: 75%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #main h2 {
+            color: #ff007f;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Review box */
+        .review-box {
+            background-color: #333;
+            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .review-box h3 {
+            color: #ff007f;
+            font-size: 1.5rem;
+        }
+
+        .review-box p {
+            color: #f1f1f1;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        #footer {
+            background-color: #ff007f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <!-- Header -->
+        <div id="header">
+            <img src="images/dees-donuts-logo.png" alt="Dee's Donuts Logo" />
+            <h1>Dee's Donuts</h1>
+        </div> <!-- header ends here -->
+
+        <!-- Navbar -->
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="locations.html">Locations</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </div> <!-- navbar ends here -->
+
+        <div id="wrapper" style="display: flex; flex: 1;">
+            <!-- Sidebar -->
+            <div id="sidebar">
+                <h3>Store Hours</h3>
+                <p>Monday: Closed</p>
+                <p>Tuesday: 6 p.m. - 9 p.m.</p>
+                <p>Wednesday: 9 a.m. - 5 p.m.</p>
+                <p>Thursday: Closed</p>
+                <p>Friday: 6 p.m. - 11 p.m.</p>
+                <p>Saturday: 10 a.m. - 5 p.m.</p>
+                <p>Sunday: 12 p.m. - 5 p.m.</p>
+            </div> <!-- sidebar column ends here -->
+
+            <!-- Main column -->
+            <div id="main">
+                <h2>Customer Reviews</h2>
+
+                <!-- Review 1 -->
+                <div class="review-box">
+                    <h3>Jane Doe</h3>
+                    <p>"Dee's Donuts are absolutely amazing! The chocolate glaze is my favorite, and the texture is perfect. Highly recommend!"</p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-box">
+                    <h3>John Smith</h3>
+                    <p>"Every time I come here, I know I'm going to get the best donuts in the area. Friendly staff, and the donuts are always fresh."</p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-box">
+                    <h3>Alice Johnson</h3>
+                  
